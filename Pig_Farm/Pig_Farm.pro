@@ -26,11 +26,19 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         mainwidget.cpp \
-    pigfarm.cpp
+    pigfarm.cpp \
+    prvlabel.cpp \
+    myBtn.cpp
 
 HEADERS += \
         mainwidget.h \
-    pigfarm.h
+    pigfarm.h \
+    prvlabel.h \
+    myBtn.h
 
 FORMS += \
         mainwidget.ui
+
+RESOURCES += \
+    img.qrc
+
